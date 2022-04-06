@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Meditation Soundboard</title>
+  
+  <!--  Favicons  -->
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site_1.webmanifest">
+  
+  <!--  CSS Styles  -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- JS Scripts  -->
+  <script defer src="./scripts.js"></script>
+
+</head>
+
+<body>
+
+  <section class="title">
+    <h1>
+      meditation soundboard
+    </h1>
+
+    <h2> use keyboard or mouse </h2>
+  </section>
+
+  <!-- Container for all the keys and sounds   -->
+  <main class="keys">
+
+    <!-- Individual Keys -->
+    <section class="layout">
+
+      <div data-key="49" class="meditation1">
+        
+        <kbd>1</kbd>
+        <span>celestial</span>
+      </div>
+
+      <div data-key="50">
+        <kbd>2</kbd>
+        <span>reverb</span>
+      </div>
+
+      <div data-key="51">
+        <kbd>3</kbd>
+        <span>adrift</span>
+      </div>
+
+      <div data-key="52">
+        <kbd>4</kbd>
+        <span>awaken</span>
+      </div>
+
+      <div data-key="53">
+        <kbd>5</kbd>
+        <span>chimes</span>
+      </div>
+
+      <div data-key="54">
+        <kbd>6</kbd>
+        <span>tranquil</span>
+      </div>
+
+      <div data-key="55">
+        <kbd>7</kbd>
+        <span>waves</span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sound Files -->
+ 
+<!--  My first mp3 file is giving me issues when I add it to assets folder  -->
+  <audio data-key="49" src="https://assets.codepen.io/6987334/meditation1celestialsunbeams.mp3"></audio>
+  <audio data-key="50" src="assets/meditation2soundwaves.mp3"></audio>
+  <audio data-key="51" src="assets/meditation3slow.mp3"></audio>
+  <audio data-key="52" src="assets/meditation4piano.mp3"></audio>
+  <audio data-key="53" src="assets/meditation5chimes.mp3"></audio>
+  <audio data-key="54" src="assets/meditation6pianoreverb.mp3"></audio>
+  <audio data-key="55" src="assets/meditation7waves.mp3"></audio>
+</audio>
+</body>
+
+</html>

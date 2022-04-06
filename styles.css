@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+
+/* Your Awesome Styling */
+
+body {
+  background-color: sandybrown;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-around;
+  height: 100vh;
+
+  text-align: center;
+  overflow: hidden;
+   margin: 0;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 7.2vh;
+
+  max-width: 85vw;
+  height: auto;
+  margin: 0 2vw;
+}
+
+
+
+h2 {
+  font-size: 3.5vh;
+  font-weight: 200;
+  
+}
+
+.layout {
+display: flex;
+  flex-flow: wrap;
+   justify-content: center;
+  align-items: center;
+  width: auto;
+
+}
+
+div {
+  display: flex;
+  flex-flow: column;
+  background-color: blanchedalmond;
+  border-radius: 7%;
+  border: solid 2px white;
+cursor: pointer;
+justify-content: center;
+  margin: 2vw;
+  font-family: inherit;
+  font-weight: 400;
+  height: auto;
+  
+  width: 7vw;
+  padding: 5%;
+
+  transition: all 0.5s ease-in-out;
+  
+ 
+}
+
+div:hover {
+  background-color: whitesmoke;
+  
+}
+
+div:focus {
+  color: rgba(255, 255, 255, 55);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  color: white;
+}
+
+div:active {
+  color: rgba(255, 255, 255, 55);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  color: sandybrown;
+  font-weight: 500; 
+}
+
+kbd {
+  font-size: 5vw;
+  font-family: inherit;
+  font-weight: 100;
+  text-align: center;
+  width: auto;
+}
+
+span {
+  text-align: center;
+ font-weight: 300;
+  
+}
+
+
+
